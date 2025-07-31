@@ -1,0 +1,26 @@
+{
+  "name": "slack-jira-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that creates Jira tickets with custom fields",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["slack", "jira", "bot", "integration"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "jira-client": "^8.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
